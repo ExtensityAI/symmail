@@ -1,0 +1,16 @@
+{
+    "version": "0.0.1",
+    "name": "ExtensityAI/symmail",
+    "expressions": [
+        {
+            "module": "src/",
+            "type": "MailWriter"
+        }
+    ],
+    "run": {
+        "module": "src/",
+        "type": "MailWriter"
+    },
+    "dependencies": [
+    ]
+}
