@@ -3,12 +3,12 @@
     "name": "ExtensityAI/symmail",
     "expressions": [
         {
-            "module": "src/",
+            "module": "src/mail_writer",
             "type": "MailWriter"
         }
     ],
     "run": {
-        "module": "src/",
+        "module": "src/mail_writer",
         "type": "MailWriter"
     },
     "dependencies": [
