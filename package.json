@@ -1,6 +1,7 @@
 {
     "version": "0.0.1",
     "name": "ExtensityAI/symmail",
+    "description": "Reformulate your emails nicely.",
     "expressions": [
         {
             "module": "src/email_writer",
