@@ -12,7 +12,7 @@ class EmailWriter(Expression):
         super().__init__()
         self.fn = Function(MAIL_CONTEXT)
 
-    def forward(self, x, style='formal'):
+    def forward(self, x, style='formal', *args, **kwargs):
         x = self._to_symbol(x)
         self.fn.prompt.format(style)
-        return self.fn(x)
+        return self.fn(x, *args, **kwargs)
