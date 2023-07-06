@@ -4,12 +4,12 @@
     "description": "Reformulate your emails nicely.",
     "expressions": [
         {
-            "module": "src/email_writer",
+            "module": "src/func",
             "type": "EmailWriter"
         }
     ],
     "run": {
-        "module": "src/email_writer",
+        "module": "src/func",
         "type": "EmailWriter"
     },
     "dependencies": [
